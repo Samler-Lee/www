@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />
+        <title>Samler Dev Channel | Samler Studio</title>
+        <style type="text/css">
+            html {
+                font-size: 16px;
+            }
+
+            body {
+                margin: 0;
+                min-height: 100vh;
+                background: url(https://s.cn.bing.net/th?id=OHR.HecetaHead_ZH-CN2813876594_1920x1080.jpg&rf=LaDigue_1920x1080.jpg) no-repeat;
+                background-size: cover;
+                color: #f3f2f1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            main, footer {
+                padding: 1rem;
+                box-sizing: border-box;
+                display: block;
+            }
+
+            main {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            footer {
+                display: flex;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.3);
+                -webkit-backdrop-filter: brightness(180%) blur(20px);
+                backdrop-filter: brightness(180%) blur(20px);
+            }
+
+            footer > * {
+                margin: .5rem;
+                display: flex;
+            }
+
+            .title {
+                font-size: 4rem;
+                margin-bottom: 1.5rem;
+                text-shadow: #1f1f1f 0 0 10px;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .content p {
+                margin: .375rem 0;
+                text-shadow: #1f1f1f 0 0 10px;
+            }
+
+            footer > .right {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+
+            footer > .right a {
+                margin: 0 1rem;
+            }
+
+            footer > .one-row {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+
+            footer > .one-row > .copyright {
+                flex: 1;
+                margin-right: 1rem;
+            }
+
+            footer > .one-row > .icp > a, footer > .right a {
+                text-decoration-line: none;
+                color: #f3f2f1;
+                transition: all ease .3s;
+            }
+
+            footer > .one-row > .icp > a:hover, footer > .right a:hover {
+                color: #e1dfdd;
+            }
+
+            @media screen and (max-width: 360px) {
+                html {
+                    font-size: 12px;
+                }
+            }
+
+            @media screen and (max-width: 650px) {
+                html {
+                    font-size: 13px;
+                }
+            }
+
+            @media screen and (max-width: 700px) {
+                footer {
+                    flex-direction: column;
+                }
+
+                footer > .right {
+                    justify-content: flex-start;
+                }
+
+                footer > .right a {
+                    margin: 0 1rem 0 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="title">Samler Dev Channel</div>
+            <div class="content">
+                <p>Welcome to visit <a href="https://samler.dev">samler.dev</a></p>
+                <p>This is a default page</p>
+            </div>
+        </main>
+        <footer>
+            <div class="one-row">
+                <div class="copyright">&copy; 2023 Samler Studio</div>
+                <div class="icp">
+                    <a id="icp_link" href="https://beian.miit.gov.cn" target="_blank"></a>
+                </div>
+            </div>
+            <div class="right">
+                <a href="https://www.samler.cn" target="_blank">Blog</a>
+                <a href="https://github.com/Samler-Lee" target="_blank">Github</a>
+                <a href="https://gitee.com/Samler" target="_blank">Gitee</a>
+            </div>
+        </footer>
+    </body>
+</html>
